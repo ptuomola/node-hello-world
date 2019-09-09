@@ -1,0 +1,19 @@
+Hello world! with Node.js
+
+Install node.js:
+
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+
+sudo apt-get install nodejs
+
+Run server.js:
+
+node src/server.js
+
+You should see:
+
+debugger listening on port 5858
+Server running at http://127.0.0.1:3000/
+
+Test by going to http://127.0.0.1:3000/
